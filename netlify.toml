@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/01-QR-code-component/*"
+  to = "/01-QR-code-component/index.html"
+  status = 200
+
+[build]
+  base = "01-QR-code-component"
+  command = "npm run build"
+  publish = "dist"
