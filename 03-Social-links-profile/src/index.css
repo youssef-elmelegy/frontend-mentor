@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-Gray-900: hsl(0, 0%, 8%);
+  --color-Gray-800: hsl(0, 0%, 12%);
+  --color-Gray-700: hsl(0, 0%, 20%);
+  --color-Green: hsl(75, 94%, 57%);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* For different weights */
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
