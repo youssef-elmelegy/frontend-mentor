@@ -2,12 +2,12 @@ import profile from "./assets/images/avatar-jessica.jpeg";
 export default function App() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-Gray-900">
-      <div className="bg-Gray-800 p-12 rounded-xl flex flex-col gap-3 w-[400px]">
-        <div className="pb-6">
+      <div className="bg-Gray-800 p-12 rounded-xl flex flex-col gap-3 w-[380px]">
+        <div className="pb-4">
           <img
             src={profile}
             alt="Profile"
-            className="w-28 h-28 rounded-full mx-auto "
+            className="w-24 h-24 rounded-full mx-auto "
           />
         </div>
         <div>
@@ -19,7 +19,7 @@ export default function App() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-4 mt-4">
+        <div className="flex flex-col gap-4 mt-2">
           <p className="text-white text-[14px] text-center p-2">
             "Front-end developer and avid reader."
           </p>
